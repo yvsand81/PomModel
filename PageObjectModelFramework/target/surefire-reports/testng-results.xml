@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-29T14:42:39 GMT" name="Suite" finished-at="2024-03-29T14:42:47 GMT" duration-ms="8363">
+    <groups>
+    </groups>
+    <test started-at="2024-03-29T14:42:39 GMT" name="Test" finished-at="2024-03-29T14:42:47 GMT" duration-ms="8363">
+      <class name="RegressionSuite.LoginTest">
+        <test-method is-config="true" signature="Initalization()[pri:0, instance:RegressionSuite.LoginTest@10e92f8f]" started-at="2024-03-29T14:42:39 GMT" name="Initalization" finished-at="2024-03-29T14:42:46 GMT" duration-ms="7432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initalization -->
+        <test-method signature="LoginWithCorrectCredentials()[pri:0, instance:RegressionSuite.LoginTest@10e92f8f]" started-at="2024-03-29T14:42:46 GMT" name="LoginWithCorrectCredentials" finished-at="2024-03-29T14:42:47 GMT" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithCorrectCredentials -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:RegressionSuite.LoginTest@10e92f8f]" started-at="2024-03-29T14:42:47 GMT" name="CleanUp" finished-at="2024-03-29T14:42:47 GMT" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+      </class> <!-- RegressionSuite.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

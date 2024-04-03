@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-29T14:47:28 GMT" name="Suite" finished-at="2024-03-29T14:47:42 GMT" duration-ms="13504">
+    <groups>
+    </groups>
+    <test started-at="2024-03-29T14:47:28 GMT" name="Test" finished-at="2024-03-29T14:47:42 GMT" duration-ms="13504">
+      <class name="RegressionSuite.LoginTest">
+        <test-method is-config="true" signature="Initalization()[pri:0, instance:RegressionSuite.LoginTest@3c19aaa5]" started-at="2024-03-29T14:47:28 GMT" name="Initalization" finished-at="2024-03-29T14:47:37 GMT" duration-ms="8771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initalization -->
+        <test-method signature="LoginWithCorrectCredentials()[pri:1, instance:RegressionSuite.LoginTest@3c19aaa5]" started-at="2024-03-29T14:47:37 GMT" name="LoginWithCorrectCredentials" finished-at="2024-03-29T14:47:38 GMT" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithCorrectCredentials -->
+        <test-method signature="LoginWithInvalidCredential()[pri:2, instance:RegressionSuite.LoginTest@3c19aaa5]" started-at="2024-03-29T14:47:38 GMT" name="LoginWithInvalidCredential" finished-at="2024-03-29T14:47:41 GMT" duration-ms="3089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredential -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:RegressionSuite.LoginTest@3c19aaa5]" started-at="2024-03-29T14:47:41 GMT" name="CleanUp" finished-at="2024-03-29T14:47:42 GMT" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+      </class> <!-- RegressionSuite.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
