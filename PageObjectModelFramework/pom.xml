@@ -75,7 +75,7 @@
           
            <configuration>
                   <suiteXmlFiles>
-                     <suiteXmlFile>C:\Users\SandyYatham\OneDrive - Laduma Inc\Desktop\SeleniumTutorials\PageObjectModelFramework\testng.xml</suiteXmlFile>
+                     <suiteXmlFile>C:\Users\SandyYatham\OneDrive - Laduma Inc\Desktop\GitPOM\PomModel\PageObjectModelFramework\testng.xml</suiteXmlFile>
                   </suiteXmlFiles>
                </configuration>
         </plugin>
