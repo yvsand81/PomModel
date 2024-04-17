@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import Utility.Helper;
 
 public class LoginPage extends Helper {
+	public static final String Email = "email";
+	public static final String password = "pass";
+	public static final String signinButton = "//button[@name='login']";
 	
 	public WebElement element ;
 
@@ -16,17 +19,17 @@ public class LoginPage extends Helper {
 	
 	public WebElement UserName()
 	{
-		return element = getElementName("email");
+		return element = getElementName(Email);
 	}
 	
 	public WebElement Password()
 	{
-		return element = getElementID("pass");
+		return element = getElementID(password);
 	}
 	
 	public WebElement SignInButton()
 	{
-		return element = getElementXpath("//button[@name='login']");
+		return element = getElementXpath(signinButton);
 	}
 	
 	
